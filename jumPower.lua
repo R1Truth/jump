@@ -20,7 +20,7 @@ local function createNotification(message)
     textLabel.TextScaled = true
     textLabel.Parent = frame
  
-    wait(5)  -- Display the notification for 5 seconds
+    wait(1)  -- Display the notification for 5 seconds
     notification:Destroy()
 end
  
